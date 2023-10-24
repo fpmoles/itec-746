@@ -25,3 +25,6 @@ target
 
 .idea
 *.iml
+
+*/__pycache__/
+*/*/__pycache__/
