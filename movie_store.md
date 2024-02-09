@@ -1,5 +1,4 @@
-'''mermaid'''
-
+'''mermaid
 erDiagram
     movies {
         movie_id uuid PK
@@ -36,7 +35,9 @@ erDiagram
         checkout_id uuid FK
         movie_id uuid FK
     }
+    
 
     checkout_items }|--|{ movies : contains
     checkouts ||--|{ checkout_items : contains
 
+'''
